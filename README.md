@@ -10,7 +10,7 @@ A git repository for lolMiner release versions
 * Discord Group :  https://discord.gg/jvfRvK5wTv
 * Youtube Channel : https://www.youtube.com/c/lolMinerSupport
 
-## Supported Algorithm
+## Supported Algorithm 
 
 | Algorithm  | Fee % |
 | ------------- | ------------- |
