@@ -6,7 +6,7 @@
 
 Usually when mining ZIL you need to mine ETH on the same pool or you need to rely on a pool proxy forwarding mechanism implemented by the pool. The first case restricts restricts your mining to a single pool while the latter might have the disadvantage of a worse ETH mining latency or pool forwarding instabilities. lolMiner 1.20 and up allow to bypass the situation by adding a second stratum connection that will pick up your ETH (or ETC) shares and bring them directly to the pool you like, while the ZIL shares will be send during the ZIL shard epochs to the ZIL pool.  
 
-To configure this follow the following steps
+To configure this follow the following steps 
 
 a) Configure your ZIL mining as normal. In case you want to use ETC+ZIL select ETCHASH as algorithm parameter. The configuration needs to be complete, that means if you stop after this point you should use normal ZIL+ETH or ZIL+ETC dual mining as you are used to.
 b) Add the parameter --dualmode zil --dualstratum *ETHWALLET*.*ETHWORKER*@*ETHPOOL*:*ETHPORT* to your command line arguments or your extra user parameters. Replace here the elements in *ETHWALLET*, *ETHWORKER*, *ETHPOOL* and *ETHPORT* with your desired ETH mining credentials. Note that <ETHSTRATUM> understands prefixes like "tls://" to activate ssl on the additional stratum connection.
