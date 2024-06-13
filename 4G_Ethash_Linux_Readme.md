@@ -10,7 +10,7 @@ This parameter can either be given one value that applied for all GPUs in your s
 The higher this parameter is choosen the more memory for a partial dag lolMiner is allowed to use. Thus the speed on your 4G cards will increase significantly. 
 Given a recent driver (e.g. amdgpu-pro 20.30 or 20.40) and the right Linux kernel (best is 5.4 at the moment), you can almost always set a value of 4078, on many rigs even 4080. Older drivers or other Linux kernels may require significantly lower values and will perform slower.
 
-Usually values that work fine, should also be good on higher epochs, so this is a one time tuning effort. 
+Usually values that work fine, should also be good on higher epochs, so this is a one time tuning effort.  
 
 
 ### Parameter 2: --zombie-tune
